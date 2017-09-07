@@ -459,7 +459,7 @@ $(function(){
 			var now = new Date().getTime();
 			
 			// 设置截至的时间
-			var end = new Date("2017-10-01 23:59:59").getTime();
+			var end = new Date("2017-11-01 23:59:59").getTime();
 			// 时间差
 			var leftTime = end-now;
 			var d,h,m,s;
