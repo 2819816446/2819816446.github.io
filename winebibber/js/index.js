@@ -227,6 +227,8 @@ $(function(){
 
 
 	/*************************固定的left*******************************/
+		//清除首次进入未滚动时出现的left导航
+		$('.left').stop().hide();
 		// 滚动监听
 		var gd=null;
 		$(window).scroll(function() {
